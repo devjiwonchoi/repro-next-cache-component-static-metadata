@@ -1,5 +1,7 @@
 Steps to reproduce:
 
+> Has `experimental.cacheComponents` enabled.
+
 ```
 pnpm i && pnpm build
 ```
