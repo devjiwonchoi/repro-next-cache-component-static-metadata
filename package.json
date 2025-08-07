@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "__NEXT_EXPERIMENTAL_PPR=true __NEXT_EXPERIMENTAL_CACHE_COMPONENTS=true next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.6"
+    "next": "canary"
   },
   "devDependencies": {
     "typescript": "^5",
